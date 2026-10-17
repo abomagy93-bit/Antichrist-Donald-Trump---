@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Cairo', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  }
+}
+
+.font-cairo {
+  font-family: 'Cairo', sans-serif;
+}
+
+.font-amiri {
+  font-family: 'Amiri', serif;
+}
+
+.font-cinzel {
+  font-family: 'Cinzel', serif;
+}
+
+/* Custom scrollbar for modern dark look */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #090d16;
+}
+::-webkit-scrollbar-thumb {
+  background: #232d42;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #d97706;
+}
+
+/* Audio wave animation */
+@keyframes soundwave {
+  0%, 100% { height: 4px; }
+  50% { height: 18px; }
+}
+.animate-wave-1 { animation: soundwave 1s ease-in-out infinite; }
+.animate-wave-2 { animation: soundwave 0.8s ease-in-out infinite 0.2s; }
+.animate-wave-3 { animation: soundwave 1.2s ease-in-out infinite 0.4s; }
+.animate-wave-4 { animation: soundwave 0.9s ease-in-out infinite 0.1s; }

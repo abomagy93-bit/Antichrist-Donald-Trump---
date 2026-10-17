@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://kareem-ashmawy.netlify.app/</loc>
+    <lastmod>2026-10-17</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    
+    <!-- Multilingual Alternates for All 12 Languages -->
+    <xhtml:link rel="alternate" hreflang="ar" href="https://kareem-ashmawy.netlify.app/?lang=ar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://kareem-ashmawy.netlify.app/?lang=en" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://kareem-ashmawy.netlify.app/?lang=zh" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://kareem-ashmawy.netlify.app/?lang=de" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://kareem-ashmawy.netlify.app/?lang=hi" />
+    <xhtml:link rel="alternate" hreflang="ur" href="https://kareem-ashmawy.netlify.app/?lang=ur" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://kareem-ashmawy.netlify.app/?lang=tr" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://kareem-ashmawy.netlify.app/?lang=ru" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://kareem-ashmawy.netlify.app/?lang=es" />
+    <xhtml:link rel="alternate" hreflang="fa" href="https://kareem-ashmawy.netlify.app/?lang=fa" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://kareem-ashmawy.netlify.app/?lang=el" />
+    <xhtml:link rel="alternate" hreflang="he" href="https://kareem-ashmawy.netlify.app/?lang=he" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kareem-ashmawy.netlify.app/" />
+
+    <!-- Google Image Sitemap Integration -->
+    <image:image>
+      <image:loc>https://i.ibb.co/8gpv9njM/1792275042204.jpg</image:loc>
+      <image:title>صورة أطروحة المسيح الدجال دونالد ترامب - المفكر والباحث كريم عشماوي</image:title>
+      <image:caption>أطروحة المسيح الدجال ANTICHRIST وعلاقتها بالتحولات الجيوسياسية المعاصرة - وثائق وصور تاريخية</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://kareem-ashmawy.netlify.app/trump-thumbnail.jpg</image:loc>
+      <image:title>غلاف أطروحة المسيح الدجال دونالد ترامب</image:title>
+    </image:image>
+  </url>
+</urlset>

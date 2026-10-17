@@ -1,0 +1,29 @@
+# Robots.txt for Antichrist Donald Trump Research by Kareem Ashmawy
+User-agent: *
+Allow: /
+Allow: /trump-thumbnail.jpg
+Allow: /intro-trump.jpg
+Allow: /sitemap.xml
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: TelegramBot
+Allow: /
+
+User-agent: WhatsApp
+Allow: /
+
+Sitemap: https://kareem-ashmawy.netlify.app/sitemap.xml

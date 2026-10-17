@@ -1,0 +1,22 @@
+{
+  "name": "Antichrist Donald Trump - المسيح الدجال دونالد ترامب",
+  "short_name": "كريم عشماوي",
+  "description": "دراسة وبحث فكري تحليلي حول أطروحة المسيح الدجال والتحولات الجيوسياسية - المفكر والباحث كريم عشماوي",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#020617",
+  "theme_color": "#020617",
+  "icons": [
+    {
+      "src": "/trump-thumbnail.jpg",
+      "sizes": "192x192 512x512",
+      "type": "image/jpeg",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://i.ibb.co/8gpv9njM/1792275042204.jpg",
+      "sizes": "1024x1024",
+      "type": "image/jpeg"
+    }
+  ]
+}
