@@ -194,7 +194,7 @@ export const ArticleView: React.FC<ArticleViewProps> = ({ article, currentLang }
       <header className="mb-8 text-center">
 
         {/* Main Title */}
-        <h1 className="text-2xl sm:text-4xl lg:text-5xl font-black text-amber-100 mb-5 leading-tight tracking-tight">
+        <h1 className="text-3xl sm:text-5xl lg:text-6xl font-extrabold text-amber-50 mb-6 leading-tight tracking-tight font-serif text-center drop-shadow-lg">
           {title}
         </h1>
 

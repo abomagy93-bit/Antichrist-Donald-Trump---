@@ -163,18 +163,18 @@ export const VisitorCounter: React.FC<VisitorCounterProps> = ({ currentLang }) =
       he: 'קוראים מחוברים כעת',
     },
     badge: {
-      ar: 'عداد زيارات حقيقي موثق يبدأ من ١٠٠٠',
-      en: 'Verified Real Visitor Counter (Base 1,000+)',
-      zh: '官方验证真实访客计数器（基数1,000起）',
-      de: 'Verifizierter Echtzeit-Besucherzähler (Basis 1.000+)',
-      hi: 'प्रमाणित वास्तविक काउंटर (आधार 1,000+)',
-      ur: 'تصدیق شدہ حقیقی کاؤنٹر (بیس ۱۰۰۰ سے زائد)',
-      tr: 'Doğrulanmış Gerçek Sayaç (Taban 1.000+)',
-      ru: 'Подтвержденный счетчик посещений (база 1 000+)',
-      es: 'Contador real verificado (base 1.000+)',
-      fa: 'شمارنده واقعی تاییدشده (پایه ۱۰۰۰ به بالا)',
-      el: 'Επαληθευμένος πραγματικός μετρητής (βάση 1.000+)',
-      he: 'מונה מבקרים מאומת (בסיס 1,000 ומעלה)',
+      ar: '',
+      en: '',
+      zh: '',
+      de: '',
+      hi: '',
+      ur: '',
+      tr: '',
+      ru: '',
+      es: '',
+      fa: '',
+      el: '',
+      he: '',
     },
   };
 
@@ -208,7 +208,7 @@ export const VisitorCounter: React.FC<VisitorCounterProps> = ({ currentLang }) =
             ) : (
               <ShieldCheck className="w-3 h-3 text-amber-400" />
             )}
-            <span>{tBadge}</span>
+            {tBadge && <span>{tBadge}</span>}
           </div>
         </div>
 
