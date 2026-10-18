@@ -224,6 +224,7 @@ export const SmartHorizontalGallery: React.FC<SmartHorizontalGalleryProps> = ({
               <img
                 src={activeImage.url}
                 alt={activeTitle || `Visual document ${activeIndex + 1}`}
+                title={activeTitle || undefined}
                 className="w-full h-full object-contain cursor-pointer transition-transform duration-300 hover:scale-[1.02]"
                 onClick={() => openLightboxAt(activeIndex)}
                 loading="eager"
@@ -448,6 +449,7 @@ export const SmartHorizontalGallery: React.FC<SmartHorizontalGalleryProps> = ({
             <img
               src={images[lightboxIndex]?.url}
               alt={getLoc(images[lightboxIndex]?.title) || `Visual Document ${lightboxIndex + 1}`}
+              title={getLoc(images[lightboxIndex]?.title) || undefined}
               className="max-h-[80vh] max-w-[90vw] object-contain transition-transform duration-200 select-none shadow-2xl"
               style={{ transform: `scale(${lightboxZoom})` }}
             />

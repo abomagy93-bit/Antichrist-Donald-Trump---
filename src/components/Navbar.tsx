@@ -2,6 +2,7 @@ import React, { useState, useRef, useEffect } from 'react';
 import { Globe, ExternalLink, ChevronDown, Check, Sparkles } from 'lucide-react';
 import { Language } from '../types';
 import { LANGUAGES, UI_STRINGS } from '../data/translations';
+import { getLanguagePath } from '../services/languageRouting';
 import { QuranRadio } from './QuranRadio';
 
 interface NavbarProps {
@@ -79,16 +80,18 @@ export const Navbar: React.FC<NavbarProps> = ({ currentLang, onLanguageChange })
 
                 <div className="py-1 grid grid-cols-1 divide-y divide-slate-800/50">
                   {LANGUAGES.map((lang) => (
-                    <button
+                    <a
                       key={lang.code}
-                      onClick={() => {
+                      href={getLanguagePath(lang.code)}
+                      onClick={(e) => {
+                        e.preventDefault();
                         onLanguageChange(lang.code);
                         setIsLangOpen(false);
                       }}
                       className={`w-full flex items-center justify-between px-3.5 py-2 text-xs sm:text-sm text-left rtl:text-right transition-colors ${
                         currentLang === lang.code
                           ? 'bg-amber-500/15 text-amber-300 font-bold'
-                          : 'text-slate-300 hover:bg-slate-800 hover:white'
+                          : 'text-slate-300 hover:bg-slate-800 hover:text-white'
                       }`}
                     >
                       <span className="flex items-center gap-2">
@@ -99,7 +102,7 @@ export const Navbar: React.FC<NavbarProps> = ({ currentLang, onLanguageChange })
                         </div>
                       </span>
                       {currentLang === lang.code && <Check className="w-3.5 h-3.5 text-amber-400 shrink-0" />}
-                    </button>
+                    </a>
                   ))}
                 </div>
               </div>

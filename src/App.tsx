@@ -10,9 +10,15 @@ import { Footer } from './components/Footer';
 import { DEFAULT_ARTICLE } from './data/defaultArticle';
 import { UI_STRINGS } from './data/translations';
 import { Language } from './types';
+import {
+  getLanguageFromUrl,
+  getLanguagePath,
+  syncDocumentSeo,
+  RTL_LANGUAGES,
+} from './services/languageRouting';
 
 export default function App() {
-  const [currentLang, setCurrentLang] = useState<Language>('ar');
+  const [currentLang, setCurrentLang] = useState<Language>(() => getLanguageFromUrl());
   const article = DEFAULT_ARTICLE;
 
   useEffect(() => {
@@ -22,34 +28,34 @@ export default function App() {
     window.scrollTo(0, 0);
   }, []);
 
+  // Sync state if browser back/forward buttons are used
   useEffect(() => {
-    // Sync html dir and lang attributes for RTL and LTR languages
-    const isRtl = ['ar', 'fa', 'ur', 'he'].includes(currentLang);
-    document.documentElement.dir = isRtl ? 'rtl' : 'ltr';
-    document.documentElement.lang = currentLang;
+    const handlePopState = () => {
+      const detected = getLanguageFromUrl();
+      setCurrentLang(detected);
+    };
 
-    // Set page title dynamically based on active language
+    window.addEventListener('popstate', handlePopState);
+    return () => window.removeEventListener('popstate', handlePopState);
+  }, []);
+
+  // Handle user language selection with history pushState
+  const handleLanguageChange = (newLang: Language) => {
+    if (newLang === currentLang) return;
+    setCurrentLang(newLang);
+    const newPath = getLanguagePath(newLang);
+    if (window.location.pathname !== newPath) {
+      window.history.pushState({ lang: newLang }, '', newPath);
+    }
+  };
+
+  useEffect(() => {
     const currentTitle = article.title[currentLang] || article.title.ar;
-    const authorName = UI_STRINGS[currentLang]?.authorName || article.author;
-    const pageTitle = `${currentTitle} | ${authorName}`;
-    document.title = pageTitle;
-
-    // Dynamic SEO synchronization across language changes
     const currentDesc = article.subtitle[currentLang] || article.subtitle.ar;
-    const descMeta = document.querySelector('meta[name="description"]');
-    if (descMeta) descMeta.setAttribute('content', currentDesc);
+    const authorName = UI_STRINGS[currentLang]?.authorName || article.author;
 
-    const ogTitle = document.querySelector('meta[property="og:title"]');
-    if (ogTitle) ogTitle.setAttribute('content', pageTitle);
-
-    const ogDesc = document.querySelector('meta[property="og:description"]');
-    if (ogDesc) ogDesc.setAttribute('content', currentDesc);
-
-    const twTitle = document.querySelector('meta[name="twitter:title"]');
-    if (twTitle) twTitle.setAttribute('content', pageTitle);
-
-    const twDesc = document.querySelector('meta[name="twitter:description"]');
-    if (twDesc) twDesc.setAttribute('content', currentDesc);
+    // Synchronize comprehensive SEO metadata and canonical tags
+    syncDocumentSeo(currentLang, currentTitle, currentDesc, authorName);
 
     // Ensure thumbnail image is firmly set to the introduction image
     const thumbUrl = article.featuredImageUrl || 'https://i.ibb.co/8gpv9njM/1792275042204.jpg';
@@ -59,7 +65,7 @@ export default function App() {
     if (twImg) twImg.setAttribute('content', thumbUrl);
   }, [currentLang, article]);
 
-  const isRtl = ['ar', 'fa', 'ur', 'he'].includes(currentLang);
+  const isRtl = RTL_LANGUAGES.includes(currentLang);
 
   return (
     <div
@@ -69,7 +75,7 @@ export default function App() {
       dir={isRtl ? 'rtl' : 'ltr'}
     >
       {/* Header containing Brand, Live Cairo Quran Radio, and 12-Language Selector */}
-      <Navbar currentLang={currentLang} onLanguageChange={setCurrentLang} />
+      <Navbar currentLang={currentLang} onLanguageChange={handleLanguageChange} />
 
       <main className="flex-1 w-full max-w-full min-w-0">
         <ArticleView article={article} currentLang={currentLang} />

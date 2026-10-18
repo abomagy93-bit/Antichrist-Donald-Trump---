@@ -2,28 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+  <!-- ========================================== -->
+  <!-- 1. Arabic (النسخة العربية - الصفحة الرئيسية) -->
+  <!-- ========================================== -->
   <url>
     <loc>https://kareem-ashmawy.netlify.app/</loc>
-    <lastmod>2026-10-17</lastmod>
+    <lastmod>2026-10-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
     
-    <!-- Multilingual Alternates for All 12 Languages -->
-    <xhtml:link rel="alternate" hreflang="ar" href="https://kareem-ashmawy.netlify.app/?lang=ar" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://kareem-ashmawy.netlify.app/?lang=en" />
-    <xhtml:link rel="alternate" hreflang="zh" href="https://kareem-ashmawy.netlify.app/?lang=zh" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://kareem-ashmawy.netlify.app/?lang=de" />
-    <xhtml:link rel="alternate" hreflang="hi" href="https://kareem-ashmawy.netlify.app/?lang=hi" />
-    <xhtml:link rel="alternate" hreflang="ur" href="https://kareem-ashmawy.netlify.app/?lang=ur" />
-    <xhtml:link rel="alternate" hreflang="tr" href="https://kareem-ashmawy.netlify.app/?lang=tr" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://kareem-ashmawy.netlify.app/?lang=ru" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://kareem-ashmawy.netlify.app/?lang=es" />
-    <xhtml:link rel="alternate" hreflang="fa" href="https://kareem-ashmawy.netlify.app/?lang=fa" />
-    <xhtml:link rel="alternate" hreflang="el" href="https://kareem-ashmawy.netlify.app/?lang=el" />
-    <xhtml:link rel="alternate" hreflang="he" href="https://kareem-ashmawy.netlify.app/?lang=he" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://kareem-ashmawy.netlify.app/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://kareem-ashmawy.netlify.app/en/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://kareem-ashmawy.netlify.app/zh/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://kareem-ashmawy.netlify.app/de/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://kareem-ashmawy.netlify.app/hi/" />
+    <xhtml:link rel="alternate" hreflang="ur" href="https://kareem-ashmawy.netlify.app/ur/" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://kareem-ashmawy.netlify.app/tr/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://kareem-ashmawy.netlify.app/ru/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://kareem-ashmawy.netlify.app/es/" />
+    <xhtml:link rel="alternate" hreflang="fa" href="https://kareem-ashmawy.netlify.app/fa/" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://kareem-ashmawy.netlify.app/el/" />
+    <xhtml:link rel="alternate" hreflang="he" href="https://kareem-ashmawy.netlify.app/he/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://kareem-ashmawy.netlify.app/" />
 
-    <!-- Google Image Sitemap Integration -->
     <image:image>
       <image:loc>https://i.ibb.co/8gpv9njM/1792275042204.jpg</image:loc>
       <image:title>صورة أطروحة المسيح الدجال دونالد ترامب - المفكر والباحث كريم عشماوي</image:title>
@@ -34,4 +36,274 @@
       <image:title>غلاف أطروحة المسيح الدجال دونالد ترامب</image:title>
     </image:image>
   </url>
+
+  <!-- ========================================== -->
+  <!-- 2. English (English Edition)               -->
+  <!-- ========================================== -->
+  <url>
+    <loc>https://kareem-ashmawy.netlify.app/en/</loc>
+    <lastmod>2026-10-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    
+    <xhtml:link rel="alternate" hreflang="ar" href="https://kareem-ashmawy.netlify.app/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://kareem-ashmawy.netlify.app/en/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://kareem-ashmawy.netlify.app/zh/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://kareem-ashmawy.netlify.app/de/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://kareem-ashmawy.netlify.app/hi/" />
+    <xhtml:link rel="alternate" hreflang="ur" href="https://kareem-ashmawy.netlify.app/ur/" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://kareem-ashmawy.netlify.app/tr/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://kareem-ashmawy.netlify.app/ru/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://kareem-ashmawy.netlify.app/es/" />
+    <xhtml:link rel="alternate" hreflang="fa" href="https://kareem-ashmawy.netlify.app/fa/" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://kareem-ashmawy.netlify.app/el/" />
+    <xhtml:link rel="alternate" hreflang="he" href="https://kareem-ashmawy.netlify.app/he/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kareem-ashmawy.netlify.app/" />
+
+    <image:image>
+      <image:loc>https://i.ibb.co/8gpv9njM/1792275042204.jpg</image:loc>
+      <image:title>Antichrist Donald Trump Research Cover - Kareem Ashmawy</image:title>
+    </image:image>
+  </url>
+
+  <!-- ========================================== -->
+  <!-- 3. Spanish (Edición en Español)            -->
+  <!-- ========================================== -->
+  <url>
+    <loc>https://kareem-ashmawy.netlify.app/es/</loc>
+    <lastmod>2026-10-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    
+    <xhtml:link rel="alternate" hreflang="ar" href="https://kareem-ashmawy.netlify.app/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://kareem-ashmawy.netlify.app/en/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://kareem-ashmawy.netlify.app/zh/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://kareem-ashmawy.netlify.app/de/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://kareem-ashmawy.netlify.app/hi/" />
+    <xhtml:link rel="alternate" hreflang="ur" href="https://kareem-ashmawy.netlify.app/ur/" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://kareem-ashmawy.netlify.app/tr/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://kareem-ashmawy.netlify.app/ru/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://kareem-ashmawy.netlify.app/es/" />
+    <xhtml:link rel="alternate" hreflang="fa" href="https://kareem-ashmawy.netlify.app/fa/" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://kareem-ashmawy.netlify.app/el/" />
+    <xhtml:link rel="alternate" hreflang="he" href="https://kareem-ashmawy.netlify.app/he/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kareem-ashmawy.netlify.app/" />
+  </url>
+
+  <!-- ========================================== -->
+  <!-- 4. Russian (Русское издание)               -->
+  <!-- ========================================== -->
+  <url>
+    <loc>https://kareem-ashmawy.netlify.app/ru/</loc>
+    <lastmod>2026-10-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    
+    <xhtml:link rel="alternate" hreflang="ar" href="https://kareem-ashmawy.netlify.app/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://kareem-ashmawy.netlify.app/en/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://kareem-ashmawy.netlify.app/zh/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://kareem-ashmawy.netlify.app/de/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://kareem-ashmawy.netlify.app/hi/" />
+    <xhtml:link rel="alternate" hreflang="ur" href="https://kareem-ashmawy.netlify.app/ur/" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://kareem-ashmawy.netlify.app/tr/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://kareem-ashmawy.netlify.app/ru/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://kareem-ashmawy.netlify.app/es/" />
+    <xhtml:link rel="alternate" hreflang="fa" href="https://kareem-ashmawy.netlify.app/fa/" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://kareem-ashmawy.netlify.app/el/" />
+    <xhtml:link rel="alternate" hreflang="he" href="https://kareem-ashmawy.netlify.app/he/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kareem-ashmawy.netlify.app/" />
+  </url>
+
+  <!-- ========================================== -->
+  <!-- 5. Chinese (中文版本)                      -->
+  <!-- ========================================== -->
+  <url>
+    <loc>https://kareem-ashmawy.netlify.app/zh/</loc>
+    <lastmod>2026-10-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    
+    <xhtml:link rel="alternate" hreflang="ar" href="https://kareem-ashmawy.netlify.app/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://kareem-ashmawy.netlify.app/en/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://kareem-ashmawy.netlify.app/zh/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://kareem-ashmawy.netlify.app/de/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://kareem-ashmawy.netlify.app/hi/" />
+    <xhtml:link rel="alternate" hreflang="ur" href="https://kareem-ashmawy.netlify.app/ur/" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://kareem-ashmawy.netlify.app/tr/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://kareem-ashmawy.netlify.app/ru/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://kareem-ashmawy.netlify.app/es/" />
+    <xhtml:link rel="alternate" hreflang="fa" href="https://kareem-ashmawy.netlify.app/fa/" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://kareem-ashmawy.netlify.app/el/" />
+    <xhtml:link rel="alternate" hreflang="he" href="https://kareem-ashmawy.netlify.app/he/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kareem-ashmawy.netlify.app/" />
+  </url>
+
+  <!-- ========================================== -->
+  <!-- 6. German (Deutsche Ausgabe)               -->
+  <!-- ========================================== -->
+  <url>
+    <loc>https://kareem-ashmawy.netlify.app/de/</loc>
+    <lastmod>2026-10-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    
+    <xhtml:link rel="alternate" hreflang="ar" href="https://kareem-ashmawy.netlify.app/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://kareem-ashmawy.netlify.app/en/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://kareem-ashmawy.netlify.app/zh/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://kareem-ashmawy.netlify.app/de/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://kareem-ashmawy.netlify.app/hi/" />
+    <xhtml:link rel="alternate" hreflang="ur" href="https://kareem-ashmawy.netlify.app/ur/" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://kareem-ashmawy.netlify.app/tr/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://kareem-ashmawy.netlify.app/ru/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://kareem-ashmawy.netlify.app/es/" />
+    <xhtml:link rel="alternate" hreflang="fa" href="https://kareem-ashmawy.netlify.app/fa/" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://kareem-ashmawy.netlify.app/el/" />
+    <xhtml:link rel="alternate" hreflang="he" href="https://kareem-ashmawy.netlify.app/he/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kareem-ashmawy.netlify.app/" />
+  </url>
+
+  <!-- ========================================== -->
+  <!-- 7. Hindi (हिन्दी संस्करण)                   -->
+  <!-- ========================================== -->
+  <url>
+    <loc>https://kareem-ashmawy.netlify.app/hi/</loc>
+    <lastmod>2026-10-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    
+    <xhtml:link rel="alternate" hreflang="ar" href="https://kareem-ashmawy.netlify.app/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://kareem-ashmawy.netlify.app/en/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://kareem-ashmawy.netlify.app/zh/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://kareem-ashmawy.netlify.app/de/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://kareem-ashmawy.netlify.app/hi/" />
+    <xhtml:link rel="alternate" hreflang="ur" href="https://kareem-ashmawy.netlify.app/ur/" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://kareem-ashmawy.netlify.app/tr/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://kareem-ashmawy.netlify.app/ru/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://kareem-ashmawy.netlify.app/es/" />
+    <xhtml:link rel="alternate" hreflang="fa" href="https://kareem-ashmawy.netlify.app/fa/" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://kareem-ashmawy.netlify.app/el/" />
+    <xhtml:link rel="alternate" hreflang="he" href="https://kareem-ashmawy.netlify.app/he/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kareem-ashmawy.netlify.app/" />
+  </url>
+
+  <!-- ========================================== -->
+  <!-- 8. Urdu (اردو ایڈیشن)                      -->
+  <!-- ========================================== -->
+  <url>
+    <loc>https://kareem-ashmawy.netlify.app/ur/</loc>
+    <lastmod>2026-10-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    
+    <xhtml:link rel="alternate" hreflang="ar" href="https://kareem-ashmawy.netlify.app/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://kareem-ashmawy.netlify.app/en/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://kareem-ashmawy.netlify.app/zh/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://kareem-ashmawy.netlify.app/de/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://kareem-ashmawy.netlify.app/hi/" />
+    <xhtml:link rel="alternate" hreflang="ur" href="https://kareem-ashmawy.netlify.app/ur/" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://kareem-ashmawy.netlify.app/tr/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://kareem-ashmawy.netlify.app/ru/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://kareem-ashmawy.netlify.app/es/" />
+    <xhtml:link rel="alternate" hreflang="fa" href="https://kareem-ashmawy.netlify.app/fa/" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://kareem-ashmawy.netlify.app/el/" />
+    <xhtml:link rel="alternate" hreflang="he" href="https://kareem-ashmawy.netlify.app/he/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kareem-ashmawy.netlify.app/" />
+  </url>
+
+  <!-- ========================================== -->
+  <!-- 9. Turkish (Türkçe Baskı)                  -->
+  <!-- ========================================== -->
+  <url>
+    <loc>https://kareem-ashmawy.netlify.app/tr/</loc>
+    <lastmod>2026-10-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    
+    <xhtml:link rel="alternate" hreflang="ar" href="https://kareem-ashmawy.netlify.app/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://kareem-ashmawy.netlify.app/en/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://kareem-ashmawy.netlify.app/zh/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://kareem-ashmawy.netlify.app/de/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://kareem-ashmawy.netlify.app/hi/" />
+    <xhtml:link rel="alternate" hreflang="ur" href="https://kareem-ashmawy.netlify.app/ur/" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://kareem-ashmawy.netlify.app/tr/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://kareem-ashmawy.netlify.app/ru/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://kareem-ashmawy.netlify.app/es/" />
+    <xhtml:link rel="alternate" hreflang="fa" href="https://kareem-ashmawy.netlify.app/fa/" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://kareem-ashmawy.netlify.app/el/" />
+    <xhtml:link rel="alternate" hreflang="he" href="https://kareem-ashmawy.netlify.app/he/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kareem-ashmawy.netlify.app/" />
+  </url>
+
+  <!-- ========================================== -->
+  <!-- 10. Persian (نسخه فارسی)                   -->
+  <!-- ========================================== -->
+  <url>
+    <loc>https://kareem-ashmawy.netlify.app/fa/</loc>
+    <lastmod>2026-10-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    
+    <xhtml:link rel="alternate" hreflang="ar" href="https://kareem-ashmawy.netlify.app/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://kareem-ashmawy.netlify.app/en/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://kareem-ashmawy.netlify.app/zh/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://kareem-ashmawy.netlify.app/de/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://kareem-ashmawy.netlify.app/hi/" />
+    <xhtml:link rel="alternate" hreflang="ur" href="https://kareem-ashmawy.netlify.app/ur/" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://kareem-ashmawy.netlify.app/tr/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://kareem-ashmawy.netlify.app/ru/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://kareem-ashmawy.netlify.app/es/" />
+    <xhtml:link rel="alternate" hreflang="fa" href="https://kareem-ashmawy.netlify.app/fa/" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://kareem-ashmawy.netlify.app/el/" />
+    <xhtml:link rel="alternate" hreflang="he" href="https://kareem-ashmawy.netlify.app/he/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kareem-ashmawy.netlify.app/" />
+  </url>
+
+  <!-- ========================================== -->
+  <!-- 11. Greek (Ελληνική Έκδοση)                -->
+  <!-- ========================================== -->
+  <url>
+    <loc>https://kareem-ashmawy.netlify.app/el/</loc>
+    <lastmod>2026-10-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    
+    <xhtml:link rel="alternate" hreflang="ar" href="https://kareem-ashmawy.netlify.app/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://kareem-ashmawy.netlify.app/en/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://kareem-ashmawy.netlify.app/zh/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://kareem-ashmawy.netlify.app/de/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://kareem-ashmawy.netlify.app/hi/" />
+    <xhtml:link rel="alternate" hreflang="ur" href="https://kareem-ashmawy.netlify.app/ur/" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://kareem-ashmawy.netlify.app/tr/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://kareem-ashmawy.netlify.app/ru/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://kareem-ashmawy.netlify.app/es/" />
+    <xhtml:link rel="alternate" hreflang="fa" href="https://kareem-ashmawy.netlify.app/fa/" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://kareem-ashmawy.netlify.app/el/" />
+    <xhtml:link rel="alternate" hreflang="he" href="https://kareem-ashmawy.netlify.app/he/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kareem-ashmawy.netlify.app/" />
+  </url>
+
+  <!-- ========================================== -->
+  <!-- 12. Hebrew (מהדורה עברית)                  -->
+  <!-- ========================================== -->
+  <url>
+    <loc>https://kareem-ashmawy.netlify.app/he/</loc>
+    <lastmod>2026-10-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    
+    <xhtml:link rel="alternate" hreflang="ar" href="https://kareem-ashmawy.netlify.app/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://kareem-ashmawy.netlify.app/en/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://kareem-ashmawy.netlify.app/zh/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://kareem-ashmawy.netlify.app/de/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://kareem-ashmawy.netlify.app/hi/" />
+    <xhtml:link rel="alternate" hreflang="ur" href="https://kareem-ashmawy.netlify.app/ur/" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://kareem-ashmawy.netlify.app/tr/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://kareem-ashmawy.netlify.app/ru/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://kareem-ashmawy.netlify.app/es/" />
+    <xhtml:link rel="alternate" hreflang="fa" href="https://kareem-ashmawy.netlify.app/fa/" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://kareem-ashmawy.netlify.app/el/" />
+    <xhtml:link rel="alternate" hreflang="he" href="https://kareem-ashmawy.netlify.app/he/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kareem-ashmawy.netlify.app/" />
+  </url>
+
 </urlset>
