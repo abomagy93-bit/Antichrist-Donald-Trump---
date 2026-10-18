@@ -192,11 +192,6 @@ export const ArticleView: React.FC<ArticleViewProps> = ({ article, currentLang }
     <article className="max-w-4xl mx-auto px-4 sm:px-6 py-6 sm:py-10">
       {/* Header & Meta */}
       <header className="mb-8 text-center">
-        {/* Research Badge */}
-        <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-amber-500/10 border border-amber-500/30 text-amber-300 text-xs sm:text-sm font-semibold mb-5 shadow-sm">
-          <Sparkles className="w-3.5 h-3.5 text-amber-400" />
-          <span>{authorTitle || t.authorBio}</span>
-        </div>
 
         {/* Main Title */}
         <h1 className="text-2xl sm:text-4xl lg:text-5xl font-black text-amber-100 mb-5 leading-tight tracking-tight">

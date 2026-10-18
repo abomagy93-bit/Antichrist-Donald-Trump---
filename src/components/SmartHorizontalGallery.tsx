@@ -39,6 +39,7 @@ export const SmartHorizontalGallery: React.FC<SmartHorizontalGalleryProps> = ({
 
   const stripRef = useRef<HTMLDivElement>(null);
   const autoPlayRef = useRef<NodeJS.Timeout | null>(null);
+  const isFirstRenderRef = useRef<boolean>(true);
 
   const getLoc = useCallback(
     (obj: any): string => {
@@ -83,15 +84,23 @@ export const SmartHorizontalGallery: React.FC<SmartHorizontalGalleryProps> = ({
     };
   }, [isAutoPlaying, handleNext]);
 
-  // Scroll active thumbnail into view in the horizontal strip
+  // Scroll active thumbnail inside the horizontal strip container only (never scroll the window)
   useEffect(() => {
+    if (isFirstRenderRef.current) {
+      isFirstRenderRef.current = false;
+      return;
+    }
+
     if (stripRef.current) {
       const activeThumb = stripRef.current.children[activeIndex] as HTMLElement;
       if (activeThumb) {
-        activeThumb.scrollIntoView({
+        const container = stripRef.current;
+        const thumbOffset = activeThumb.offsetLeft;
+        const thumbWidth = activeThumb.offsetWidth;
+        const containerWidth = container.offsetWidth;
+        container.scrollTo({
+          left: thumbOffset - containerWidth / 2 + thumbWidth / 2,
           behavior: 'smooth',
-          block: 'nearest',
-          inline: 'center',
         });
       }
     }

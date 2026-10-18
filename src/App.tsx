@@ -16,6 +16,13 @@ export default function App() {
   const article = DEFAULT_ARTICLE;
 
   useEffect(() => {
+    if ('scrollRestoration' in window.history) {
+      window.history.scrollRestoration = 'manual';
+    }
+    window.scrollTo(0, 0);
+  }, []);
+
+  useEffect(() => {
     // Sync html dir and lang attributes for RTL and LTR languages
     const isRtl = ['ar', 'fa', 'ur', 'he'].includes(currentLang);
     document.documentElement.dir = isRtl ? 'rtl' : 'ltr';
