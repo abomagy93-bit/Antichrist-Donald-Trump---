@@ -32,7 +32,7 @@ export const DEFAULT_ARTICLE: ResearchArticle = {
     he: 'בהוכחה ובמופת - מאת הוגה הדעות והחוקר קרים עשמאווי',
   },
   author: 'المفكر والباحث كريم عشماوي',
-  authorUrl: 'https://kareem-ashmawy.netlify.app',
+  authorUrl: 'https://anti-christ.netlify.app',
   authorTitle: {
     ar: '',
     en: '',

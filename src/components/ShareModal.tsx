@@ -39,7 +39,7 @@ export const ShareModal: React.FC<ShareModalProps> = ({
 
   if (!isOpen) return null;
 
-  const currentUrl = typeof window !== 'undefined' ? window.location.href : 'https://kareem-ashmawy.netlify.app';
+  const currentUrl = typeof window !== 'undefined' ? window.location.href : 'https://anti-christ.netlify.app';
   const encodedUrl = encodeURIComponent(currentUrl);
   const shareText = `${title}\n${author}\n\n${subtitle.slice(0, 160)}...`;
   const encodedText = encodeURIComponent(shareText);
@@ -156,7 +156,7 @@ export const ShareModal: React.FC<ShareModalProps> = ({
           </div>
           <div className="p-3.5 space-y-1 bg-slate-900/90 border-t border-slate-800">
             <p className="text-xs text-amber-400 font-semibold tracking-wide">
-              kareem-ashmawy.netlify.app
+              anti-christ.netlify.app
             </p>
             <h4 className="font-bold text-sm text-slate-100 line-clamp-2">
               {title}

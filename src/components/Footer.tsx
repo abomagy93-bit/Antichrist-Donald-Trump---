@@ -37,7 +37,7 @@ export const Footer: React.FC<FooterProps> = ({ currentLang }) => {
         {/* Official Author Portal */}
         <div className="flex flex-wrap items-center justify-center gap-4 text-xs">
           <a
-            href="https://kareem-ashmawy.netlify.app"
+            href="https://anti-christ.netlify.app"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-1.5 px-3.5 py-2 rounded-xl bg-slate-900 border border-slate-800 hover:border-amber-500/40 text-amber-300 hover:text-amber-200 transition-colors shadow-sm"

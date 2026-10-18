@@ -26,4 +26,4 @@ Allow: /
 User-agent: WhatsApp
 Allow: /
 
-Sitemap: https://kareem-ashmawy.netlify.app/sitemap.xml
+Sitemap: https://anti-christ.netlify.app/sitemap.xml

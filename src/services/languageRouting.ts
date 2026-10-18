@@ -17,7 +17,7 @@ export const VALID_LANGUAGES: Language[] = [
 
 export const RTL_LANGUAGES: Language[] = ['ar', 'fa', 'ur', 'he'];
 
-export const BASE_SITE_URL = 'https://kareem-ashmawy.netlify.app';
+export const BASE_SITE_URL = 'https://anti-christ.netlify.app';
 
 /**
  * Returns the canonical URL for a given language.

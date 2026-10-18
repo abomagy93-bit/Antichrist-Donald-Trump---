@@ -112,7 +112,7 @@ const FormattedContent: React.FC<{ text: string; className?: string }> = ({
 // Inline parser for bold (**text**), italic (*text*), and external URLs
 const RenderInlineText: React.FC<{ text: string }> = ({ text }) => {
   // Regex to split by bold (**...**) and links
-  const parts = text.split(/(\*\*.*?\*\*|\*.*?\*|https?:\/\/[^\s]+|kareem-ashmawy\.netlify\.app)/g);
+  const parts = text.split(/(\*\*.*?\*\*|\*.*?\*|https?:\/\/[^\s]+|anti-christ\.netlify\.app)/g);
 
   return (
     <>
@@ -140,7 +140,7 @@ const RenderInlineText: React.FC<{ text: string }> = ({ text }) => {
         }
 
         // Website mention
-        if (part === 'kareem-ashmawy.netlify.app' || part.startsWith('http')) {
+        if (part === 'anti-christ.netlify.app' || part.startsWith('http')) {
           const url = part.startsWith('http') ? part : `https://${part}`;
           return (
             <a

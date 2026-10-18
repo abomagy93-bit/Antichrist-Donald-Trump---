@@ -111,7 +111,7 @@ export const Navbar: React.FC<NavbarProps> = ({ currentLang, onLanguageChange })
 
           {/* Official Site Link (Only visible on wide desktop screens to avoid squeezing) */}
           <a
-            href="https://kareem-ashmawy.netlify.app"
+            href="https://anti-christ.netlify.app"
             target="_blank"
             rel="noopener noreferrer"
             className="hidden xl:flex items-center gap-1.5 text-xs font-semibold px-2.5 py-1.5 rounded-xl bg-amber-500/10 border border-amber-500/30 text-amber-300 hover:bg-amber-500/20 transition-all"
