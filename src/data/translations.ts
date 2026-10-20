@@ -60,7 +60,7 @@ export interface UIStringDefinition {
 
 export const UI_STRINGS: Record<Language, UIStringDefinition> = {
   ar: {
-    title: 'المسيح الدجال دونالد ترامب',
+    title: 'Antichrist Donald Trump - المسيح الدجال دونالد ترامب',
     authorName: 'المفكر والباحث كريم عشماوي',
     authorBio: 'مفكر وباحث في الدراسات الفكرية والجيوسياسية والنبوءات',
     readMore: 'قراءة المزيد',
@@ -142,7 +142,7 @@ export const UI_STRINGS: Record<Language, UIStringDefinition> = {
     pauseAutoPlay: 'Pause',
   },
   zh: {
-    title: '敌基督唐纳德·特朗普',
+    title: 'Antichrist Donald Trump - 敌基督唐纳德·特朗普',
     authorName: '思想家兼研究员 卡里姆·阿什马维 (Kareem Ashmawy)',
     authorBio: '地缘政治与末世预言思想学者',
     readMore: '阅读全文',
@@ -183,7 +183,7 @@ export const UI_STRINGS: Record<Language, UIStringDefinition> = {
     pauseAutoPlay: '暂停',
   },
   de: {
-    title: 'Der Antichrist Donald Trump',
+    title: 'Antichrist Donald Trump - Der Antichrist Donald Trump',
     authorName: 'Denker & Forscher Kareem Ashmawy',
     authorBio: 'Denker und Forscher für geopolitische und prophetische Studien',
     readMore: 'Weiterlesen',
@@ -224,7 +224,7 @@ export const UI_STRINGS: Record<Language, UIStringDefinition> = {
     pauseAutoPlay: 'Pause',
   },
   hi: {
-    title: 'मसीह अद-दज्जाल डोनाल्ड ट्रम्प',
+    title: 'Antichrist Donald Trump - मसीह अद-दज्जाल डोनाल्ड ट्रम्प',
     authorName: 'चिंतक एवं शोधकर्ता करीम अश्मावी (Kareem Ashmawy)',
     authorBio: 'भू-राजनीतिक एवं भविष्यवाणी अध्ययन के विचारक व विश्लेषक',
     readMore: 'अधिक पढ़ें',
@@ -265,7 +265,7 @@ export const UI_STRINGS: Record<Language, UIStringDefinition> = {
     pauseAutoPlay: 'रोकें',
   },
   ur: {
-    title: 'مسیح دجال ڈونلڈ ٹرمپ',
+    title: 'Antichrist Donald Trump - مسیح دجال ڈونلڈ ٹرمپ',
     authorName: 'مفکر و محقق کریم عشماوی (Kareem Ashmawy)',
     authorBio: 'جیو پولیٹیکل، فکری اور پیشین گوئیوں کے مطالعے کے محقق',
     readMore: 'مزید پڑھیں',
@@ -306,7 +306,7 @@ export const UI_STRINGS: Record<Language, UIStringDefinition> = {
     pauseAutoPlay: 'وقفہ',
   },
   tr: {
-    title: 'Deccal Donald Trump',
+    title: 'Antichrist Donald Trump - Deccal Donald Trump',
     authorName: 'Düşünür ve Araştırmacı Kareem Ashmawy',
     authorBio: 'Jeopolitik, felsefi ve kehanet araştırmaları uzmanı düşünür',
     readMore: 'Devamını Oku',
@@ -347,7 +347,7 @@ export const UI_STRINGS: Record<Language, UIStringDefinition> = {
     pauseAutoPlay: 'Duraklat',
   },
   ru: {
-    title: 'Антихрист Дональд Трамп',
+    title: 'Antichrist Donald Trump - Антихрист Дональд Трамп',
     authorName: 'Мыслитель и исследователь Карим Ашмави',
     authorBio: 'Исследователь геополитических и пророческих концепций',
     readMore: 'Читать далее',
@@ -388,7 +388,7 @@ export const UI_STRINGS: Record<Language, UIStringDefinition> = {
     pauseAutoPlay: 'Пауза',
   },
   es: {
-    title: 'Anticristo Donald Trump',
+    title: 'Antichrist Donald Trump - Anticristo Donald Trump',
     authorName: 'Pensador e Investigador Kareem Ashmawy',
     authorBio: 'Pensador e investigador en estudios geopolíticos y proféticos',
     readMore: 'Leer más',
@@ -429,7 +429,7 @@ export const UI_STRINGS: Record<Language, UIStringDefinition> = {
     pauseAutoPlay: 'Pausa',
   },
   fa: {
-    title: 'مسیح دجال دونالد ترامپ',
+    title: 'Antichrist Donald Trump - مسیح دجال دونالد ترامپ',
     authorName: 'اندیشمند و پژوهشگر کریم عشماوی',
     authorBio: 'پژوهشگر مطالعات ژئوپلیتیک، اندیشه و نشانه‌های آخرالزمان',
     readMore: 'ادامه مطلب',
@@ -470,7 +470,7 @@ export const UI_STRINGS: Record<Language, UIStringDefinition> = {
     pauseAutoPlay: 'توقف موقت',
   },
   el: {
-    title: 'Αντίχριστος Ντόναλντ Τραμπ',
+    title: 'Antichrist Donald Trump - Αντίχριστος Ντόναλντ Τραμπ',
     authorName: 'Στοχαστής & Ερευνητής Kareem Ashmawy',
     authorBio: 'Ερευνητής γεωπολιτικών και προφητικών αναλύσεων',
     readMore: 'Διαβάστε περισσότερα',
@@ -511,7 +511,7 @@ export const UI_STRINGS: Record<Language, UIStringDefinition> = {
     pauseAutoPlay: 'Παύση',
   },
   he: {
-    title: 'אנטיכריסט דונלד טראמפ',
+    title: 'Antichrist Donald Trump - אנטיכריסט דונלד טראמפ',
     authorName: 'הוגה דעות וחוקר קרים עשמאווי (Kareem Ashmawy)',
     authorBio: 'חוקר בתחום הגיאופוליטיקה והנבואות',
     readMore: 'קרא עוד',

@@ -145,3 +145,11 @@ export function syncDocumentSeo(
   const twUrl = document.querySelector('meta[name="twitter:url"]');
   if (twUrl) twUrl.setAttribute('content', canonicalUrl);
 }
+
+/**
+ * Updates the browser URL to the path for the specified language.
+ */
+export function setUrlForLanguage(lang: Language): void {
+  const path = getLanguagePath(lang);
+  window.history.pushState({ lang }, '', path);
+}
